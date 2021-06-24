@@ -7,9 +7,9 @@ public class RecursiveAlphabet {
 		System.out.println("   "+ ra.printAbcBackwards(c));
 	}
 	
-		public String printAbcBackwards(char letter) {
-			if(letter == 'a') return "a";
-			else return letter + printAbcBackwards((char)(letter - 1));
-		}
+	public String printAbcBackwards(char letter) {
+		if(letter == 'a') return "a";
+		else return letter + printAbcBackwards((char)(letter - 1));
+	}
 
 }
